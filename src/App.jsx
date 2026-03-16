@@ -1,3 +1,5 @@
+import gitIcon from './assets/GitHub_Invertocat_White.png'
+
 function App() {
   return (
   <>
@@ -7,7 +9,7 @@ function App() {
         <p><a href = "mailto:hi@maxjh.dev">hi@maxjh.dev</a></p>
       </div>
       <a href = "https://github.com/tastefulblues">
-      <img src = "/src/assets/GitHub_Invertocat_White.png" class = "git"></img>
+      <img src = {gitIcon} className = "git"/>
       </a>
 
     </div>
