@@ -1,8 +1,12 @@
 import gitIcon from './assets/GitHub_Invertocat_White.png'
+import Clock from './components/Clock'
 
 function App() {
   return (
   <>
+  <div className = "clockContainer">
+  < Clock />
+  </div>
     <div className = "container">
       <div className = "name">
         <h3>Max Hunt</h3>
@@ -16,7 +20,7 @@ function App() {
     <hr></hr>
     <div className = "bio">
       <p>
-        Currently a student at the University of Utah,
+        Currently enrolled at the University of Utah,
         based in Salt Lake City. Thanks for stopping by.
       </p>
     </div>
