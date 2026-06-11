@@ -31,12 +31,32 @@ body
   padding-top: 100px;
 }
 
-
 .bio
 {
   width: 300px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+
+.projects
+{
+  display: grid;
+  grid-template-columns: auto;
+  width: 600px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projectHead
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.projectCard
+{
+  width: 300px;
 }
 
 a
@@ -51,20 +71,35 @@ hr
   color: #363639;
 }
 
-img
+.gitIcon
 {
   width: 30px;
   height: 30px;
   margin-top: 120px;
 }
 
-.git 
+.gitIcon 
 {
   transition: 300ms linear;
 }
 
-.git:hover 
+.gitIcon:hover 
 {
   transform: scale(1.2);
+  cursor: pointer;
+}
+
+.hnIcon
+{
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+  padding-top: 10px;
+  transition: 300ms linear;
+}
+
+.hnIcon:hover
+{
+  transform: scale(1.05);
   cursor: pointer;
 }
