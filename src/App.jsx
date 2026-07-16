@@ -37,8 +37,8 @@ function App() {
             Built with Node.js, Express, PostgreSQL, and React.
           </li>
         </ul>
-        <a href = "https://hn-sentiment.vercel.app/" target = "_blank">
-        <img src = {hnIcon} className = "hnIcon"/>
+        <a href = "https://github.com/tastefulblues/hn-sentiment" target = "_blank" className = "projectLink">
+        View on GitHub →
         </a>
       </div>
 
