@@ -54,6 +54,20 @@ function App() {
         View on GitHub →
         </a>
       </div>
+
+      <div className = "projectCard">
+        <h4 className = "projectHead">Codebase Q&A</h4>
+        <ul className = "a">
+          <li>A RAG-based tool that lets you chat with any GitHub codebase. 
+            Paste a repo URL, it indexes every function and class, and you 
+            can ask questions with answers cited to the actual source files.
+            Built with Python, OpenAI Embeddings, Supabase, Anthropic Claude, and React.
+          </li>
+        </ul>
+        <a href = "https://github.com/tastefulblues/codebase-qa" target = "_blank" className = "projectLink">
+        View on GitHub →
+        </a>
+      </div>
     </div>
   </>  
   )
