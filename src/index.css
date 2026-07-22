@@ -67,6 +67,8 @@ a
   color: #d8e6ad;
 }
 
+
+
 hr
 {
   max-width: 300px;
@@ -91,31 +93,17 @@ hr
   cursor: pointer;
 }
 
-.hnIcon
-{
-  max-width: 300px;
-  height: 250px;
-  border-radius: 20px;
-  padding-top: 10px;
-  transition: 300ms linear;
-}
-
-.hnIcon:hover
-{
-  transform: scale(1.05);
-  cursor: pointer;
-}
-
 .projectLink
 {
   display: inline-block;
   padding-top: 10px;
   transition: 300ms linear;
+  color: #C6BAEA;
 }
 
 .projectLink:hover
 {
-  transform: scale(1.05);
+  transform: translate(5px);
 }
 
 @media(max-width: 600px)
